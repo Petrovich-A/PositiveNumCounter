@@ -1,0 +1,47 @@
+# Java
+/.classpath
+.classpath
+/.project
+.project
+/*.settings
+.settings/
+/build
+.vscode
+.idea
+.idea/.gitignore
+users.txt
+compiler.xml
+
+.iml
+CNCprogram.iml
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.rar
+
+# Maven
+
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# https://github.com/takari/maven-wrapper#usage-without-binary-jar
+.mvn/wrapper/maven-wrapper.jar
