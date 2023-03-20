@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 class ConverterStrToArrayTest {
-    private static ConverterStrToArray converterStrToArray = new ConverterStrToArray();
+    private final static ConverterStrToArray converterStrToArray = new ConverterStrToArray();
 
     @Test
     void convertStrToArray() {
