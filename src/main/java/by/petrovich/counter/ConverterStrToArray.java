@@ -15,7 +15,7 @@ public class ConverterStrToArray {
             try {
                 numbers[i] = Integer.parseInt(numbersArray[i]);
             } catch (NumberFormatException e) {
-                LOGGER.log(Level.ERROR, "Int value in String");
+                LOGGER.log(Level.ERROR, "Int value in String", e);
             }
         }
         return numbers;
