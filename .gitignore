@@ -1,5 +1,4 @@
 # Java
-.gitignore
 /.classpath
 .classpath
 /.project
@@ -9,7 +8,9 @@
 /build
 .vscode
 .idea
+.idea/.gitignore
 users.txt
+compiler.xml
 
 .iml
 CNCprogram.iml
